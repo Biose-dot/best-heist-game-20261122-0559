@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Velvet Vault — A Midnight Heist</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #0a0712;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, serif;
+  }
+  #wrap {
+    text-align: center;
+  }
+  canvas {
+    display: block;
+    width: 1280px;
+    height: 800px;
+    max-width: 100vw;
+    max-height: 100vh;
+    background: #171226;
+    box-shadow: 0 0 60px rgba(120, 90, 200, 0.25);
+  }
+  #note {
+    color: #9d8fc0;
+    font-size: 13px;
+    margin-top: 8px;
+    font-family: system-ui, sans-serif;
+  }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="800"></canvas>
+  <div id="note">Velvet Vault — a midnight heist. Best played with sound on.</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
